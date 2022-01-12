@@ -185,6 +185,8 @@ public class LoginEndpointTest {
                 .body("msg", equalTo("Hello: user_admin   -   Role: admin"));
     }
 
+
+
     @Test
     public void testRestForMultiRole2() {
         login("user_admin", "test");
